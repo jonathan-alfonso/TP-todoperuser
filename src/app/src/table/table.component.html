@@ -13,7 +13,11 @@
         <tr *ngFor="let user of users; index as i">
             <td>{{ user.fname }} {{user.lname }}</td>
             <td>{{ user.mail }}</td>
-            <td>Underco.</td>
+            <td class="userActions">
+                <fa-icon [icon]="faUpdate" title="Modifier utilisateur"></fa-icon>
+                <fa-icon [icon]="faDelete" title="Supprimer utilisateur"></fa-icon>
+                <fa-icon [icon]="faTodos" title="Voir les tâches"></fa-icon>
+            </td>
         </tr>
     </tbody>
 </table>
