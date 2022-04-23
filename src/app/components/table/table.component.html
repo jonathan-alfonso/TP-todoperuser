@@ -1,0 +1,24 @@
+<div class="container mt-5 text-center">
+    <h2>Liste des utilisateurs</h2>
+
+    <table class="table table-dark table-striped">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Email</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td routerLink="/todos/{{ user.id }}">{{ user.fname }} {{user.lname }}</td>
+                <td>{{ user.mail }}</td>
+                <td class="userActions">
+                    <fa-icon [icon]="faUpdate" title="Modifier utilisateur"></fa-icon>
+                    <fa-icon [icon]="faDelete" title="Supprimer utilisateur" (click)="deleteUser(user.id)"></fa-icon>
+                    <fa-icon [icon]="faTodos" title="Voir les tâches" routerLink="/todos/{{ user.id }}"></fa-icon>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

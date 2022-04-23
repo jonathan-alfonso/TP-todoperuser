@@ -1,58 +1,81 @@
 {
-    "users": [
-        {
-            "id": "2051baed-55da-4a47-b00a-aa2ab35a540c",
-            "fname": "Nordine",
-            "lname": "Ateur",
-            "mail": "nateur@heavy.fr"
-        },
-        {
-            "id": "b5bf4ab9-e037-491a-9f53-50c4a4707873",
-            "fname": "Oscar",
-            "lname": "Avane",
-            "mail": "oavane@heavy.fr"
-        },
-        {
-            "id": "01fdebd9-7b20-4c98-bb6b-7019678af6bf",
-            "fname": "Jean",
-            "lname": "Chaine",
-            "mail": "jchaine@heavy.fr"
-        },
-        {
-            "id": "d5f8b853-26cc-437b-83f5-3f1503050f47",
-            "fname": "Marie",
-            "lname": "Onlait",
-            "mail": "monlait@heavy.fr"
-        },
-        {
-            "id": "796b85dc-bb7c-4542-9d72-896cc6b455d8",
-            "fname": "Harry",
-            "lname": "Stocratt",
-            "mail": "hstocratt@heavy.fr"
-        },
-        {
-            "id": "347e7204-3eab-4e19-b3a9-cb4d8a802ccd",
-            "fname": "Luc",
-            "lname": "Ratif",
-            "mail": "lratif@heavy.fr"
-        },
-        {
-            "id": "e184ddf3-4486-4bd7-bc6a-5e565aad7564",
-            "fname": "Hans",
-            "lname": "Anglanté",
-            "mail": "hanglante@heavy.fr"
-        },
-        {
-            "id": "32db0e72-cc72-4545-ab03-3c7cd6a4f882",
-            "fname": "Guy",
-            "lname": "Liguili",
-            "mail": "gliguili@heavy.fr"
-        },
-        {
-            "id": "8a2ead7e-2e9a-4de6-b7f6-ff12498d7c86",
-            "fname": "Phil",
-            "lname": "Defer",
-            "mail": "pdefer@heavy.fr"
-        }
-    ]
+  "users": [
+    {
+      "id": "2051baed-55da-4a47-b00a-aa2ab35a540c",
+      "fname": "Nordine",
+      "lname": "Ateur",
+      "mail": "nateur@heavy.fr"
+    },
+    {
+      "id": "b5bf4ab9-e037-491a-9f53-50c4a4707873",
+      "fname": "Oscar",
+      "lname": "Avane",
+      "mail": "oavane@heavy.fr"
+    },
+    {
+      "id": "01fdebd9-7b20-4c98-bb6b-7019678af6bf",
+      "fname": "Jean",
+      "lname": "Chaine",
+      "mail": "jchaine@heavy.fr"
+    },
+    {
+      "id": "d5f8b853-26cc-437b-83f5-3f1503050f47",
+      "fname": "Marie",
+      "lname": "Onlait",
+      "mail": "monlait@heavy.fr"
+    },
+    {
+      "id": "796b85dc-bb7c-4542-9d72-896cc6b455d8",
+      "fname": "Harry",
+      "lname": "Stocratt",
+      "mail": "hstocratt@heavy.fr"
+    },
+    {
+      "id": "347e7204-3eab-4e19-b3a9-cb4d8a802ccd",
+      "fname": "Luc",
+      "lname": "Ratif",
+      "mail": "lratif@heavy.fr"
+    },
+    {
+      "id": "e184ddf3-4486-4bd7-bc6a-5e565aad7564",
+      "fname": "Hans",
+      "lname": "Anglanté",
+      "mail": "hanglante@heavy.fr"
+    },
+    {
+      "id": "32db0e72-cc72-4545-ab03-3c7cd6a4f882",
+      "fname": "Guy",
+      "lname": "Liguili",
+      "mail": "gliguili@heavy.fr"
+    },
+    {
+      "id": "8a2ead7e-2e9a-4de6-b7f6-ff12498d7c86",
+      "fname": "Phil",
+      "lname": "Defer",
+      "mail": "pdefer@heavy.fr"
+    }
+  ],
+  "todos": [
+    {
+      "id": "0bc2343c-cbd5-478f-80e1-0c958e9db55c",
+      "description": "Rendre le devoir",
+      "category": "Travail",
+      "done": true,
+      "userId": "8a2ead7e-2e9a-4de6-b7f6-ff12498d7c86"
+    },
+    {
+      "id": "S4zCOim",
+      "description": "Jouer un peu",
+      "category": "JV",
+      "done": false,
+      "userId": "8a2ead7e-2e9a-4de6-b7f6-ff12498d7c86"
+    },
+    {
+      "id": "-bRjQIC",
+      "description": "Faire la vaisselle",
+      "category": "Perso",
+      "done": false,
+      "userId": "8a2ead7e-2e9a-4de6-b7f6-ff12498d7c86"
+    }
+  ]
 }

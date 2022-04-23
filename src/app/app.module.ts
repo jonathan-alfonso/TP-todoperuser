@@ -5,10 +5,12 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './src/footer/footer.component';
-import { HeaderComponent } from './src/header/header.component';
-import { TableComponent } from './src/table/table.component';
-import { TodosComponent } from './src/todos/todos.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { TableComponent } from './components/table/table.component';
+import { TodosComponent } from './components/todos/todos.component';
+import { TodosFormComponent } from './components/todos-form/todos-form.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -17,13 +19,15 @@ import { TodosComponent } from './src/todos/todos.component';
     HeaderComponent,
     TableComponent,
     FooterComponent,
-    TodosComponent
+    TodosComponent,
+    TodosFormComponent
   ],
   imports: [
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,29 @@
+<button class="btn btn-light m-2" routerLink="/todos/{{ todo.userId }}">
+  Retour
+</button>
+
+<form (ngSubmit)="submitForm()">
+  <div class="mb-3">
+    <label for="description" class="form-label">Description</label>
+    <input
+      [(ngModel)]="todo.description"
+      type="text"
+      name="description"
+      placeholder="Lorem Ipsum"
+      class="form-control"
+    />
+  </div>
+
+  <div class="mb-3">
+    <label for="category" class="form-label">Catégorie</label>
+    <select [(ngModel)]="todo.category" name="category" class="form-select">
+      <option value="Travail">Travail</option>
+      <option value="Perso">Perso</option>
+      <option value="JV">Jeu</option>
+    </select>
+  </div>
+  
+  <div class="row d-flex justify-content center">
+    <button type="submit" class="btn btn-primary text-center">Valider</button>
+  </div>
+</form>

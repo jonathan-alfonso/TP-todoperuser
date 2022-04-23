@@ -1,0 +1,12 @@
+.userActions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+fa-icon {
+    cursor: pointer;
+}
+
+td:first-child {
+    cursor: pointer;
+}
